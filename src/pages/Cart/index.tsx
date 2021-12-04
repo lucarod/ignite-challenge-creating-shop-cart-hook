@@ -68,7 +68,7 @@ const Cart = (): JSX.Element => {
             return (
               <tr key={product.id} data-testid="product">
                 <td>
-                  <img src={product.image} />
+                  <img src={product.image} alt={product.title} />
                 </td>
                 <td>
                   <strong>{product.title}</strong>
